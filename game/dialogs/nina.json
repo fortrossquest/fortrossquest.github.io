@@ -1,0 +1,191 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Nina Suburban",
+      "rus": "Нина Слободская"
+    },
+    "response": {
+      "eng": "Oh my, oh my...",
+      "rus": "Ох...ох..."
+    },
+    "branches": ["gree_1", "gree_2"]
+  },
+  "gree_1": {
+    "prompt": {
+      "eng": "Good day!",
+      "rus": "Добрый день!"
+    },
+    "response": {
+      "eng": "Good day!",
+      "rus": "Здравствуй."
+    },
+    "branches": ["char_1", "hous_1", "fort_1", "main_1", "coin_1", "polo_1", "cont_1"]
+  },
+  "gree_2": {
+    "prompt": {
+      "eng": "Can I help you?",
+      "rus": "Могу ли я вам чем-нибудь помочь?"
+    },
+    "response": {
+      "eng": "Oh it's my back, my dear. Just a sign of an old age.",
+      "rus": "Ох, это моя спина, сынок. Просто возраст сказывается..."
+    },
+    "branches": ["char_1", "hous_1", "fort_1", "main_1", "coin_1", "polo_1", "cont_1"]
+  },
+  "char_1": {
+    "prompt": {
+      "eng": "Who are you?",
+      "rus": "Как вас зовут?"
+    },
+    "response": {
+      "eng": "Nina, ... my name is Nina Slobodskaya.",
+      "rus": "Нина ... меня зовут, Нина Слободская."
+    },
+    "branches": ["char_1", "hous_1", "fort_1", "main_1", "coin_1", "polo_1", "cont_1"]
+  },
+  "hous_1": {
+    "set_flags": ["poor_old_lady"],
+    "prompt": {
+      "eng": "Do you live in the fortress?",
+      "rus": "Вы живёте в крепости?"
+    },
+    "response": {
+      "eng": "Ah yes. Old Rotchev has been kind to me, as he always is. I lived in a house just outside the fortress, but it burned down last month. Terrible thing. Most of my things are gone. Now I'm  staying on the first floor in the blockhouse.",
+      "rus": "Да. Старый Ротчев отнёсся ко мне с присущей ему добротой. Я раньше жила в доме вне крепости, но он сгорел в прошлом месяце. Теперь я живу на первом этаже блокпоста. "
+    },
+    "branches": ["hous_2_1", "hous_2_2"]
+  },
+  "hous_2_1": {
+    "prompt": {
+      "eng": "Is your house being reconstructed?",
+      "rus": "Ваш дом перестраивают?"
+    },
+    "response": {
+      "eng": "Well not right now, my dear. I do not have much money left, especially since my dear husband is now in the cold earth. I would not like to be a burden on Rotchev, but what am I to do?",
+      "rus": "Эх...пока ещё нет. У меня немного денег осталось, особенно сейчас, когда мой муж в сырой земле... Мне не хотелось бы быть бременем для Ротчева...Но что я могу с этим поделать?"
+    },
+    "branches": ["char_1", "hous_1", "fort_1", "main_1", "coin_1", "polo_1", "cont_1"]
+  },
+  "hous_2_2": {
+    "prompt": {
+      "eng": "Can I help you somehow?",
+      "rus": "Могу ли я вам чем-нибудь помочь?"
+    },
+    "response": {
+      "eng": "Well I do not like begging, young man. So do not mind too much....",
+      "rus": "Эх... не моё это, попрошайничать, молодой человек. Так что не надо слишком обо мне беспокоиться..."
+    },
+    "branches": ["char_1", "hous_1", "fort_1", "main_1", "coin_1", "polo_1", "cont_1"]
+  },
+  "fort_1": {
+    "prompt": {
+      "eng": "Can you tell me anything about the fortress?",
+      "rus": "Не могли бы вы мне рассказать что-нибудь о крепости?"
+    },
+    "response": {
+      "eng": "I came with my husband more than 25 years ago. How hard it was to get here! Thanks God, life here is exactly the same as ours was in Siberia. Only fewer people. But I don't need many.",
+      "rus": "Я сюда с мужем больше 25 лет назад приехала. Как тяжело добирались! Слава богу, здесь жизнь точно такая же, как и у нас, в Сибири. Только людей поменьше. Да мне много и не надо."
+    },
+    "branches": ["char_1", "hous_1", "fort_1", "main_1", "coin_1", "polo_1", "cont_1"]
+  },
+  "main_1": {
+    "required_flags_not": ["contract_search"],
+    "prompt": {
+      "eng": "Do you know where Peter is?",
+      "rus": "Вы не знаете где Пётр?"
+    },
+    "response": {
+      "eng": "Alas no. Young Peter is always out and about. Heaven only knows where he is right now. I've often seen him hanging around with that young Indian girl.",
+      "rus": "Увы, не знаю. Петю всегда где-то носит. Бог знает, где он сейчас пропадает... Я часто вижу его гуляющего с этой индейской барышней."
+    },
+    "branches": ["main_2"]
+  },
+  "main_2": {
+    "set_flags": ["sokenon"],
+    "prompt": {
+      "eng": "What Indian girl?",
+      "rus": "Что за индейская девушка?"
+    },
+    "response": {
+      "eng": "Oh Sokeni or something like that. I am sorry, my memory fades and I am bad at remembering names.",
+      "rus": "Ох... Сокени или что-то вроде того. Я прошу прощения, моя память меня подводит, я плохо запоминаю имена."
+    },
+    "branches": ["main_3"]
+  },
+  "main_3": {
+    "prompt": {
+      "eng": "Thank you anyway.",
+      "rus": "Благодарю в любом случае."
+    },
+    "response": {
+      "eng": "Never mind, young man.",
+      "rus": "Ничего, молодой человек"
+    },
+    "branches": ["char_1", "hous_1", "fort_1", "main_1", "coin_1", "polo_1", "cont_1"]
+  },
+  "coin_1": {
+    "required_items": ["coins"],
+    "required_flags": ["poor_old_lady"],
+    "prompt": {
+      "eng": "Here take these coins.",
+      "rus": "Вот, возьмите эти деньги."
+    },
+    "response": {
+      "eng": "Thank you, dear! At least somebody helped.",
+      "rus": "Спасибо, милок! Хоть кто-то помог."
+    },
+    "branches": ["char_1", "hous_1", "fort_1", "main_1", "coin_1", "polo_1", "cont_1"]
+  },
+  "cont_1": {
+    "required_flags": ["contract_search"],
+    "required_flags_not": ["polo_search"],
+    "prompt": {
+      "eng": "Do you know anything about a contract with the Indians?",
+      "rus": "Вы не знаете что-нибудь о письменном договоре с индейцами?"
+    },
+    "response": {
+      "eng": "What could I know! If I had ever known anything about it I would have already forgotten... My memory isn't that good... Oh, old age...",
+      "rus": "Что я могу знать! Если бы и знала что-либо об этом, давно бы уже позабыла... Моя память уже не та... Ох, старость..."
+    },
+    "branches": ["char_1", "hous_1", "fort_1", "main_1", "coin_1", "polo_1", "cont_1"]
+  },
+  "polo_1": {
+    "required_flags": ["contract_search", "polo_search"],
+    "prompt": {
+      "eng": "Have you heard anything about the person called Polotskoy?",
+      "rus": "Вам ничего неизвестно о человеке с фамилией Полоцкой?"
+    },
+    "response": {
+      "eng": "That is my deceased husband, who died almost 10 years ago! I just stayed with my maiden surname. Why are you asking?",
+      "rus": "Так муж это мой покойный, который умер уже почти 10 лет тому назад! Фамилию просто девичью оставила. А что?"
+    },
+    "branches": ["polo_2"]
+  },
+  "polo_2": {
+    "prompt": {
+      "eng": "Do you know about some paper that people say he keptin the frame on the wall?",
+      "rus": "Не осталось ли у тебя такой бумажки, говорят, он её в рамке на стене держал."
+    },
+    "response": {
+      "eng": "I can't remember... But all the paintings burnt with the house!",
+      "rus": "Что-то не припомню… Так сгорели все картины вместе с домом!"
+    },
+    "branches": ["polo_3"]
+  },
+  "polo_3": {
+    "set_flags": ["polo_found"],
+    "prompt": {
+      "eng": "How come?",
+      "rus": "Как?!"
+    },
+    "response": {
+      "eng": "Or perhaps it didn't. He told me he had something that could prove the peace and save the fort. I don't know what he meant then. All these mysteries he carried with him into the grave...",
+      "rus": "Хотя нет, не так. Он мне говорил, что у него было что-то такое, что могло бы доказать мир и спасти крепость. Я не знаю, что он имел тогда в виду. Все эти тайны он унёс с собой в могилу..."
+    },
+    "branches": ["char_1", "hous_1", "fort_1", "main_1", "coin_1", "polo_1", "cont_1"]
+  }
+}

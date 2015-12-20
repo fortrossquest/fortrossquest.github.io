@@ -1,0 +1,111 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Andrey",
+      "rus": "Андрей"
+    },
+    "response": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "branches": ["intro_2"]
+  },
+  "intro_2": {
+    "prompt": {
+      "eng": "Hello!",
+      "rus": "Здравствуйте!"
+    },
+    "response": {
+      "eng": "Good day, stranger!",
+      "rus": "Добрый день, незнакомец!"
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1", "polo_1"]
+  },
+  "char_1": {
+    "set_flags": ["sokenon"],
+    "prompt": {
+      "eng": "What's your name?",
+      "rus": "Как тебя звать?"
+    },
+    "response": {
+      "eng": "I'm Andry. In fact I'm a cannoneer but I also have other tasks around the fort!. But cannons are always ready for defending the fort!",
+      "rus": "Я Андрей. Вообще-то я пушкарь, но по жизни чем тут только не занимаюсь. Но пушки всегда к стрельбе готовы!"
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1", "polo_1"]
+  },
+  "fort_1": {
+    "prompt": {
+      "eng": "What do you know about the fortress?",
+      "rus": "Что ты знаешь об этой крепости?"
+    },
+    "response": {
+      "eng": "That fort is the most distant from St. Petersburg but it's well protected!",
+      "rus": "Самый далекий от Питера острог, а защищен неплохо!"
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1", "polo_1"]
+  },
+  "main_1": {
+    "required_flags_not": ["contract_search"],
+    "prompt": {
+      "eng": "Where is Peter?",
+      "rus": "Где Пётр?"
+    },
+    "response": {
+      "eng": "That Peter is a fool. Why does Sokenon like him?",
+      "rus": "Дурак этот Петька! И что хорошего в нем Сокэнон нашла?"
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1", "polo_1"]
+  },
+  "wine_1": {
+    "required_flags": ["wine_quest"],
+    "required_flags_not": ["wine_quest_got_wine"],
+    "prompt": {
+      "eng": "Do you have any wine?",
+      "rus": "Не найдётся ли у тебя вина?"
+    },
+    "response": {
+      "eng": "I don't have any wine but my hootch is excellent! Drop by when you have time!",
+      "rus": "Вина у меня нет, но самогончик отличный! Заходи как-нибудь вечерком!"
+    },
+    "branches": ["wine_2"]
+  },
+  "wine_2": {
+    "prompt": {
+      "eng": "Surely so!",
+      "rus": "Всенепременно."
+    },
+    "response": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1", "polo_1"]
+  },
+  "cont_1": {
+    "required_flags": ["contract_search"],
+    "prompt": {
+      "eng": "Do you know anything about a contract between Russian and natives?",
+      "rus": "Ты не знаешь ничего о договоре русских с индейцами?"
+    },
+    "response": {
+      "eng": "I am afraid I am not aware of such a thing. You may ask Rotchev.",
+      "rus": "Я боюсь, что не усведомлён о нём. Можешь спросить Ротчева."
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1", "polo_1"]
+  },
+  "polo_1": {
+    "required_flags": ["contract_search", "polo_search"],
+    "prompt": {
+      "eng": "Do you know anybody by the name of Polotskoy?",
+      "rus": "Ты не знаешь такого человека, как Полоцкой?"
+    },
+    "response": {
+      "eng": "I do not.",
+      "rus": "Нет, я не знаю."
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1", "polo_1"]
+  }
+}

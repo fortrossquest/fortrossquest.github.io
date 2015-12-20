@@ -1,0 +1,26 @@
+{
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    },
+    {
+      "destination": "kuskov_inside",
+      "label": {
+        "eng": "Go Inside",
+        "rus": "Войти внутрь"
+      },
+      "position": {
+        "x": 750,
+        "y": 580
+      }
+    }
+  ]
+}

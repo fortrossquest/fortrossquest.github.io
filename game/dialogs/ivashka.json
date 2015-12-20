@@ -1,0 +1,115 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Ivashka",
+      "rus": "Ивашка"
+    },
+    "response": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "branches": ["intro_2"]
+  },
+  "intro_2": {
+    "prompt": {
+      "eng": "Good day!",
+      "rus": "Добрый день!"
+    },
+    "response": {
+      "eng": "Hello...",
+      "rus": "Здравствуйте..."
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "bott_1", "cont_1", "polo_1"]
+  },
+  "char_1": {
+    "prompt": {
+      "eng": "What's your name?",
+      "rus": "Как зовут?"
+    },
+    "response": {
+      "eng": "Everybody calls me Ivashka and I don't mind. They also claim I'm always drunk, don't listen to them.",
+      "rus": "Все называют меня Ивашкой. Я не возражаю. Ещё они утверждают, что я постоянно пью... Не слушай их!"
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "bott_1", "cont_1", "polo_1"]
+  },
+  "fort_1": {
+    "prompt": {
+      "eng": "Well, could you tell me about the fortress?",
+      "rus": "Ну, не мог бы ты рассказать мне о крепости?"
+    },
+    "response": {
+      "eng": "At least I'm happy to be here. Every year I help to pick sweet grapes from Fort Ross garden. There doesn't exsist wine better than the one we make! I also own a part of these stocks.",
+      "rus": "По крайней мере, я рад, что здесь нахожусь. Каждый год я помогаю собирать сладкий виноград из сада Форт Росса. Не существует вина лучше, чем то, которое производят здесь! Я также владею частью этих запасов."
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "bott_1", "cont_1", "polo_1"]
+  },
+  "main_1": {
+    "required_flags_not": ["contract_search"],
+    "prompt": {
+      "eng": "Haven't you seen Peter? Where can he be?",
+      "rus": "Ты не видел Петра? Где же он может быть?"
+    },
+    "response": {
+      "eng": "I don't follow him. Usually he is in the fortress, I think so.",
+      "rus": "Я за ним не слежу. Обычно он в крепости, я так думаю"
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "bott_1", "cont_1", "polo_1"]
+  },
+  "wine_1": {
+    "required_flags": ["wine_quest"],
+    "set_flags": ["wine_quest_watch"],
+    "required_flags_not": ["wine_quest_got_wine"],
+    "prompt": {
+      "eng": "Can I ask you for a bottle of that excellent wine, guy?",
+      "rus": "Не могу ли я тебя попросить о бутылке того отличного вина, дружище?"
+    },
+    "response": {
+      "eng": "Yeah... I could offer such thing... but, as you see, I'm quite upset: I've lost my valuable watch... It must have fallen in the well.",
+      "rus": "Да... Я бы мог оказать тебе такую услугу...Да вот, расстроен я: на днях я был навеселе и потерял ценные часы... Должно быть, они упали в колодец."
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "bott_1", "cont_1", "polo_1"]
+  },
+  "bott_1": {
+    "set_flags": ["wine_quest_got_wine"],
+    "required_flags": ["wine_quest", "wine_quest_watch"],
+    "required_items": ["watch"],
+    "give_items": ["wine"],
+    "prompt": {
+      "eng": "Here is your watch!",
+      "rus": "Держи, вот твои часы!"
+    },
+    "response": {
+      "eng": "Thank you so much. Here is the bottle for you. Enjoy!",
+      "rus": "О, спасибо большое. Вот бутылка с меня. Держи!"
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "bott_1", "cont_1", "polo_1"]
+  },
+  "cont_1": {
+    "required_flags": ["contract_search"],
+    "prompt": {
+      "eng": "Do you know anything about a contract signed between the Russians and the Natives?",
+      "rus": "Вы знаете что-нибудь о договоре, составленном русскими и местными?"
+    },
+    "response": {
+      "eng": "Yeah... There were lots of talks about it before. Nowdays, I think everybody forgot about it...",
+      "rus": "Да...Много было разговоров о нём до этого...Теперь я думаю, все позабыли уж..."
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "bott_1", "cont_1", "polo_1"]
+  },
+  "polo_1": {
+    "required_flags": ["contract_search", "polo_search"],
+    "prompt": {
+      "eng": "Do you know anybody by the name of Polotskoy?",
+      "rus": "Вы не знаете никого с фамилией Полоцкой?"
+    },
+    "response": {
+      "eng": "Polotskoy? Haven't heard about this person... No, I don't know him.",
+      "rus": "Полоцкой? Не слышал о таком человеке... Нет, не знаю его."
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "bott_1", "cont_1", "polo_1"]
+  }
+}

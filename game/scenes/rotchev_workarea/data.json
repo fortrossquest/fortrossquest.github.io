@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "id": "shovel",
+      "position": {
+        "x": 470,
+        "y": 450
+      },
+      "size": {
+        "width": 300,
+        "height": 300
+      }
+    },
+    {
+      "id": "coins",
+      "position": {
+        "x": 1080,
+        "y": 620
+      },
+      "size": {
+        "width": 70,
+        "height": 70
+      }
+    }
+  ],
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    },
+    {
+      "destination": "rotchev_inside_1",
+      "label": {
+        "eng": "Go into the writing room",
+        "rus": "Войти в кабинет"
+      },
+      "icon": "undo",
+      "position": {
+        "x": 640,
+        "y": 750
+      }
+    }
+  ]
+}

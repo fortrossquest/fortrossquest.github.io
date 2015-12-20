@@ -1,0 +1,16 @@
+{
+  "links": [
+    {
+      "icon": "sign-out",
+      "destination": "title",
+      "label": {
+        "eng": "Back to title",
+        "rus": "Вернуться к началу"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  ]
+}

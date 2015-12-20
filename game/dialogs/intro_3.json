@@ -1,0 +1,28 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Alexander Gavrilovich Rotchev",
+      "rus": "Александр Гаврилович Ротчев"
+    },
+    "response": {
+      "eng": "Well, then, Mr. Schelokov, please go to the office, where our clerk Peter, ... about your age, the youngest of us, ... will formalize the inspector’s documents, here is a note with my signature.",
+      "rus": "Значит так, господин Щелоков, вы сейчас идите в контору, там наш клерк, Петр, примерно вашего возраста, самый молодой из наших оформит Вам инспекторские документы, вот записка с моей подписью."
+    },
+    "branches": ["1"]
+  },
+  "1": {
+    "prompt": {
+      "eng": "Thank You! I don’t know what I would do without your help.",
+      "rus": "Благодарю Вас! Не знаю, что бы я делал без Вашей помощи."
+    },
+    "response": {
+      "eng": "Don't worry! People here, by the way, are kind – they will help, if something comes up, so don’t mind asking them for help. I'm sorry, I could not stay longer. I have some things to do.",
+      "rus": "Не стоит! Люди у нас, кстати, добрые – помогут, если что, так что Вы обращайтесь и к ним, будут вопросы. Извините меня, что не могу задержаться более. Меня ждут дела."
+    },
+    "close_go_to": "map"
+  }
+}

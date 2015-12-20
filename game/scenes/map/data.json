@@ -1,0 +1,143 @@
+{
+  "links": [
+    {
+      "label": {
+        "eng": "Chapel",
+        "rus": "Часовня"
+      },
+      "destination": "chapel",
+      "position": {
+        "x": 896,
+        "y": 88
+      }
+    },
+    {
+      "label": {
+        "eng": "Kuskov House",
+        "rus": "Дом Кускова"
+      },
+      "destination": "kuskov",
+      "position": {
+        "x": 557,
+        "y": 196
+      }
+    },
+    {
+      "label": {
+        "eng": "Well",
+        "rus": "Колодец"
+      },
+      "destination": "well",
+      "position": {
+        "x": 570,
+        "y": 416
+      }
+    },
+    {
+      "label": {
+        "eng": "Rotchev House",
+        "rus": "Дом Ротчева"
+      },
+      "destination": "rotchev",
+      "position": {
+        "x": 256,
+        "y": 472
+      }
+    },
+    {
+      "label": {
+        "eng": "North Gate",
+        "rus": "Северные ворота"
+      },
+      "destination": "gate_north",
+      "position": {
+        "x": 153,
+        "y": 384
+      }
+    },
+    {
+      "required_flags_not": ["sokenon"],
+      "label": {
+        "eng": "South Gate",
+        "rus": "Южные ворота"
+      },
+      "destination": "gate_south",
+      "position": {
+        "x": 1075,
+        "y": 384
+      }
+    },
+    {
+      "required_flags": ["sokenon"],
+      "label": {
+        "eng": "South Gate",
+        "rus": "Южные ворота"
+      },
+      "destination": "gate_south_sokenon",
+      "position": {
+        "x": 1075,
+        "y": 384
+      }
+    },
+    {
+      "required_flags": ["wine_quest_complete"],
+      "required_flags_not": ["contract_search"],
+      "icon": "anchor",
+      "label": {
+        "eng": "Shore",
+        "rus": "Берег моря"
+      },
+      "destination": "shore_1",
+      "position": {
+        "x": 600,
+        "y": 730
+      }
+    },
+    {
+      "label": {
+        "eng": "Blockhouse",
+        "rus": "Блокпост"
+      },
+      "destination": "blockhouse",
+      "position": {
+        "x": 1088,
+        "y": 640
+      }
+    },
+    {
+      "label": {
+        "eng": "Officer Quarters",
+        "rus": "Контора"
+      },
+      "destination": "officer",
+      "position": {
+        "x": 450,
+        "y": 580
+      }
+    },
+    {
+      "label": {
+        "eng": "Fur Warehouse",
+        "rus": "Скорняжный склад"
+      },
+      "destination": "warehouse",
+      "position": {
+        "x": 300,
+        "y": 300
+      }
+    },
+    {
+      "required_flags": ["polo_found"],
+      "label": {
+        "eng": "Grave Yard",
+        "rus": ""
+      },
+      "icon": "arrows",
+      "destination": "grave_1",
+      "position": {
+        "x": 640,
+        "y": 40
+      }
+    }
+  ]
+}

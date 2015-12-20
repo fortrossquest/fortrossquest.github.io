@@ -1,0 +1,52 @@
+{
+  "intro": {
+    "required_flags_not": ["wine_quest_watch_found"],
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Nikolai Schelokov",
+      "rus": "Николай Щелоковъ"
+    },
+    "response": {
+      "eng": "I think I see something floating there in the water...",
+      "rus": "Мне кажется, я вижу, что там что-то плавает..."
+    },
+    "branches": ["nothing_1", "fish_1"]
+  },
+  "nothing_1": {
+    "prompt": {
+      "eng": "What could it be?",
+      "rus": "Что же это может быть?"
+    },
+    "response": {
+      "eng": "It's something small. I don't know what it is: it reflects the light...",
+      "rus": "Какой-то маленький предмет, он отражает свет: не могу понять, что это..."
+    }
+  },
+  "fish_1": {
+    "required_items": ["rope", "bucket"],
+    "give_items": ["watch"],
+    "set_flags": ["wine_quest_watch_found"],
+    "prompt": {
+      "eng": "With the rope and bucket I'll be able to try to fish it out...",
+      "rus": "С верёвкой и ведром я смогу попытаться выловить его."
+    },
+    "response": {
+      "eng": "Yeah this definetly works... Got it!",
+      "rus": "Да, это несомненно работает... Вот и оно!"
+    },
+    "branches": ["fish_2"]
+  },
+  "fish_2": {
+    "prompt": {
+      "eng": "What is it?",
+      "rus": "Что это?"
+    },
+    "response": {
+      "eng": "Looks like a watch. Quite in good condition as well...",
+      "rus": "Похоже на часы. Однако, в неплохом состоянии..."
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dialog": "grave",
+  "dialog_position": {
+    "x": 5,
+    "y": 40
+  },
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  ]
+}

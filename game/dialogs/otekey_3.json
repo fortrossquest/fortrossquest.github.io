@@ -1,0 +1,39 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Otekey",
+      "rus": "Отекей"
+    },
+    "response": {
+      "eng": "Then you are honorable in my eyes. It has been long since we saw the symbol of our friendship from your side. Now it's time to revive the forgotten agreements, to bring to life old promises!",
+      "rus": "Ты выглядишь достойным в моих глазах. Прошло много времени с того момента, как мы последний раз видели этот символ дружбы с вашей стороны. Ныне настало время увидеть забытые соглашения, воскресить старые обещания!"
+    },
+    "branches": ["1"]
+  },
+  "1": {
+    "prompt": {
+      "eng": "I will wear the symbol then, in recognition of these old words. Let them remain true in the future as they were in the past.",
+      "rus": "Я буду носить этот символ в знак того, что я признаю эти мудрые слова. Пусть они будут в силе в будущем также, как они были верны и в прошлом."
+    },
+    "response": {
+      "eng": "Are you going to sail back across the sea? Return to your northern homeland?",
+      "rus": "Но не уедешь ли ты обратно за море? Не вернёшься ли ты на свою северную родину?"
+    },
+    "branches": ["2"]
+  },
+  "2": {
+    "prompt": {
+      "eng": "I think I'm needed here much more than there. In the fortress there are still quite a lot of things to be done.",
+      "rus": "Я думаю, что здесь я нужен гораздо больше, чем там. В крепости осталось ещё много дел, которые меня ждут."
+    },
+    "response": {
+      "eng": "Very well then, friend.",
+      "rus": "Очень хорошо тогда, друг."
+    },
+    "close_go_to": "end"
+  }
+}

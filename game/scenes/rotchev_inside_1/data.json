@@ -1,0 +1,50 @@
+{
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    },
+    {
+      "destination": "rotchev",
+      "label": {
+        "eng": "Go back outside",
+        "rus": "Выйти на улицу"
+      },
+      "icon": "undo",
+      "position": {
+        "x": 640,
+        "y": 750
+      }
+    },
+    {
+      "destination": "rotchev_inside_2",
+      "label": {
+        "eng": "Go into the sitting room",
+        "rus": "Войти в гостиную"
+      },
+      "position": {
+        "x": 678,
+        "y": 400
+      }
+    },
+    {
+      "destination": "rotchev_workarea",
+      "label": {
+        "eng": "Go into the workshop",
+        "rus": "Войти в мастерскую"
+      },
+      "label_left": true,
+      "position": {
+        "x": 1000,
+        "y": 600
+      }
+    }
+  ]
+}

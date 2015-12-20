@@ -1,0 +1,16 @@
+{
+  "dialog": "ivashka",
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  ]
+}

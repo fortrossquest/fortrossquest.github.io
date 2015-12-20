@@ -1,0 +1,16 @@
+{
+  "dialog": "intro_3",
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Skip",
+        "rus": "Пропустить"
+      },
+      "position": {
+        "x": 640,
+        "y": 700
+      }
+    }
+  ]
+}

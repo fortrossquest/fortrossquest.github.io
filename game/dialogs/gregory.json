@@ -1,0 +1,99 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Gregory",
+      "rus": "Григорий"
+    },
+    "response": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "branches": ["intro_2"]
+  },
+  "intro_2": {
+    "prompt": {
+      "eng": "Good day, father!",
+      "rus": "Добрый день, святой отец!"
+    },
+    "response": {
+      "eng": "Ah, good day!",
+      "rus": "А, добрый!"
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1"]
+  },
+  "char_1": {
+    "prompt": {
+      "eng": "Who are you?",
+      "rus": "Кто вы?"
+    },
+    "response": {
+      "eng": "My name is father Gregory. Welcome to \"the Chapel of the Holy Trinity\"",
+      "rus": "Имя мое отец Григорий. Добро пожаловать в \"Часовню Святой Троицы Живоначальной\""
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1"]
+  },
+  "fort_1": {
+    "prompt": {
+      "eng": "Could you tell me anything about the fortress?",
+      "rus": "Не могли бы вы рассказать мне немного о крепости?"
+    },
+    "response": {
+      "eng": "It's a saint land! God is everywhere here.",
+      "rus": "Святая это земля! Здесь всюду Бог."
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1"]
+  },
+  "main_1": {
+    "required_flags_not": ["contract_search"],
+    "prompt": {
+      "eng": "Excuse me, do you know where the clerk of the fortress is? A guy called Peter?",
+      "rus": "Прошу прощения, вы не знаете, где находиться клерк крепости по имени Пётр?"
+    },
+    "response": {
+      "eng": "Oh, I don't know where Peter is!",
+      "rus": "Ох, не знаю я, где Петр!"
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1"]
+  },
+  "wine_1": {
+    "required_flags": ["wine_quest"],
+    "required_flags_not": ["wine_quest_got_wine"],
+    "prompt": {
+      "eng": "Father Gregory, don't you have a bottle of wine?",
+      "rus": "Отец Григорий, не найдется ли у вас бутылочка вина?"
+    },
+    "response": {
+      "eng": "Goodness! I don't drink wine!",
+      "rus": "Господь с Вами! Я вина не пью!"
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1"]
+  },
+  "cont_1": {
+    "required_flags": ["contract_search"],
+    "set_flags": ["polo_search"],
+    "prompt": {
+      "eng": "I beg your pardon, haven't you heard anything about the contract with the Indians? Haven't you seen that important document?",
+      "rus": "Я прошу у вас прощения, не доводилось ли вам слышать что-то про договор с индейцами? Вы не видели этот важный документ?"
+    },
+    "response": {
+      "eng": "I became old, can't remember anything I said or did. It was somewhere here, it was! Poletskiy kept it, probably. Or not, Polovetskiy. Or... Damn him! Polotskoy! Yeah, Polotskoy! He kept it in the frame, behind the glass.",
+      "rus": "Старый я стал, ничего не помню, что говорил и делал уже. Хотя, постой… Был где-то, был, вроде! У Полецкого он был, кажись. Или не, у Половецкого. Или… Черт бы его побрал! Полоцкого! Во, Полоцкого! Он его у себя за стеклом хранил, в рамке."
+    },
+    "branches": ["cont_2"]
+  },
+  "cont_2": {
+    "prompt": {
+      "eng": "I don't know any Polotskoy. Where could I find him?",
+      "rus": "Я не знаю никакого Полоцкого. Где я могу его найти?"
+    },
+    "response": {
+      "eng": "I'm sure I can't help you.",
+      "rus": "Вот уж точно я тебе не помогу."
+    },
+    "branches": ["char_1", "fort_1", "main_1", "wine_1", "cont_1"]
+  }
+}

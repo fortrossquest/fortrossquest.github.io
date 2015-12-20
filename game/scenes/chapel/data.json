@@ -1,0 +1,38 @@
+{
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    },
+    {
+      "destination": "chapel_inside_priest",
+      "label": {
+        "eng": "Go Inside",
+        "rus": "Войти внутрь"
+      },
+      "position": {
+        "x": 512,
+        "y": 560
+      }
+    },
+    {
+      "destination": "chapel_priest",
+      "icon": "bell",
+      "label": {
+        "eng": "Ring the bell",
+        "rus": "Позвонить в колокол"
+      },
+      "position": {
+        "x": 262,
+        "y": 550
+      }
+    }
+  ]
+}

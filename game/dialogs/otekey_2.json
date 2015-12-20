@@ -1,0 +1,39 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Otekey",
+      "rus": "Отекей"
+    },
+    "response": {
+      "eng": "The two parts of the coin symbolize friendship and  common prosperity of our people, my brother claimed so. The entire coin was cut on that day when both sides came to an agreement. Now when I see these two golden disk parts, shining like the sun, I believe our gods that you with your folks deserve peace and friendship with ours.",
+      "rus": "Две половины монеты символизируют дружбу и общее процветание наших народов, так считал мой брат. Целая монета была разрублена в тот день, когда обе стороны пришли к согласию.Теперь, когда я вижу эти две части золотого диска, светящиеся как солнце, я верю нашим богам, что ваш народ достоин мира и дружбы с нашим."
+    },
+    "branches": ["1"]
+  },
+  "1": {
+    "prompt": {
+      "eng": "A golden ruble coin is a fitting royal symbol, Otekey.",
+      "rus": "Золотой рубль - оответствующий королевский символ, Отекей."
+    },
+    "response": {
+      "eng": "My brother always had it on his necklace so did I but I haven't seen any Russian wearing it. I even doubted if your people appreciated that sign as much as he did and if your people still have it...",
+      "rus": "Мой брат всегда носил его на шее, так же поступал и я, но я не видывал ни единого русского, который бы носил его. Я даже усомнился, ценят ли русские этот знак так же, как ценил мой брат и храниться ли он до сих пор у ваших людей..."
+    },
+    "branches": ["2"]
+  },
+  "2": {
+    "prompt": {
+      "eng": "I want to be responsible for the ruble and wear its half as a sign of our friendly relationship. I give you my word.",
+      "rus": "Я хочу поручиться за этот рубль и носить его половину в знак наших хороших отношений. Я ручаюсь за это."
+    },
+    "response": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "close_go_to": "otekey_3"
+  }
+}

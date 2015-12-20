@@ -1,0 +1,72 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Otekey",
+      "rus": "Отекей"
+    },
+    "response": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "branches": ["1"]
+  },
+  "1": {
+    "prompt": {
+      "eng": "Otekey, you claimed to be a friend of the Russian people. Your people and mine have had positive dealings for many decades.",
+      "rus": "Отекей, вы приходитесь другом русским людям. Между нашими народами царили прекрасные отношения многие десятилетия."
+    },
+    "response": {
+      "eng": "I claimed no such thing. You are not dealing with my brother anymore.",
+      "rus": "Я не утверждал, ничего подобного. Вы больше не имеете дело с моим братом, но со мной."
+    },
+    "branches": ["2"]
+  },
+  "2": {
+    "prompt": {
+      "eng": "Isn't your brother's word honored by you?",
+      "rus": "Не является ли теперь слово вашего брата достойным уважения?"
+    },
+    "response": {
+      "eng": "Who are you to tell me what my brothers word was?",
+      "rus": "Кто ты, чтобы говорить мне о словах моего брата?"
+    },
+    "branches": ["3"]
+  },
+  "3": {
+    "prompt": {
+      "eng": "We have a contract between our people. Your brother swore your tribe would abide by it if our people do so as well. Do you mean to break it?",
+      "rus": "У нас был договор с вашими людьми. Ваш брат поклялся, что ваше племя будет соблюдать его, если наши люди в свою очередь верны ему. Вы подразумеваете, что хотите расторгнуть его? "
+    },
+    "response": {
+      "eng": "Contract? Show it to me.",
+      "rus": "Договор? Покажи его мне."
+    },
+    "branches": ["4"]
+  },
+  "4": {
+    "prompt": {
+      "eng": "I will, Otektey. I assure you, we do not wish ill-will upon your people.",
+      "rus": "Я принесу его, Отекей. Уверяю вас, мы не хотим плохих отношений с вашим народом."
+    },
+    "response": {
+      "eng": "We will see. The Mexicans claim differently and have convincing words to say.",
+      "rus": "Посмотрим. Мексиканцы думают иначе и у них есть убедительные слова на этот счёт."
+    },
+    "branches": ["5"]
+  },
+  "5": {
+    "prompt": {
+      "eng": "Otektey, will you keep your brother's promises if I show it to you?",
+      "rus": "Отекей, вы будете честно соблюдать обещание вашего брата, если я покажу вам договор?"
+    },
+    "response": {
+      "eng": "Show it and we shall see...",
+      "rus": "Покажи, а затем посмотрим..."
+    },
+    "close_go_to": "rotchev_2"
+  }
+}

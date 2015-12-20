@@ -1,0 +1,21 @@
+{
+  "dialog": "intro_1",
+  "dialog_position": {
+    "x": 5,
+    "y": 25
+  },
+  "links": [
+    {
+      "icon": "play",
+      "destination": "intro_2",
+      "label": {
+        "eng": "Skip",
+        "rus": "Пропустить"
+      },
+      "position": {
+        "x": 640,
+        "y": 700
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Vitaliy",
+      "rus": "Витaлий"
+    },
+    "response": {
+      "eng": "Rotchev House! Wow, it's hard to believe it was all built by Russians back in the day...",
+      "rus": "Дом Ротчева! Да, сложно поверить, что это всё было построено давным-давно русскими..."
+    },
+    "branches": ["1"]
+  },
+  "1": {
+    "prompt": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "person": {
+      "eng": "Masha",
+      "rus": "Маша"
+    },
+    "response": {
+      "eng": "Yeah... guys, come on over here!",
+      "rus": "Эй... Ребята, идите сюда!"
+    },
+    "branches": ["2"]
+  },
+  "2": {
+    "prompt": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "person": {
+      "eng": "Natasha",
+      "rus": "Наташа"
+    },
+    "response": {
+      "eng": "What do you have there? Hey, don't touch it!",
+      "rus": "Что у тебя тут? Эй, не трогай!"
+    },
+    "branches": ["3"]
+  },
+  "3": {
+    "prompt": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "person": {
+      "eng": "Masha",
+      "rus": "Маша"
+    },
+    "response": {
+      "eng": "I'm just taking a peak....",
+      "rus": "Дай только взглянуть..."
+    },
+    "branches": ["4"]
+  },
+  "4": {
+    "prompt": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "person": {
+      "eng": "Vitaliy",
+      "rus": "Витaлий"
+    },
+    "response": {
+      "eng": "Don't mess around with these things here, Masha.",
+      "rus": "Не устраивай здесь беспорядок, Маша."
+    },
+    "branches": ["5"]
+  },
+  "5": {
+    "prompt": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "person": {
+      "eng": "Masha",
+      "rus": "Маша"
+    },
+    "response": {
+      "eng": "Look. It must be a diary. It was under this shelf.",
+      "rus": "Посмотри! Должно быть, это дневник. Он был под этой полкой."
+    },
+    "branches": ["6"]
+  },
+  "6": {
+    "prompt": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "person": {
+      "eng": "Natasha",
+      "rus": "Наташа"
+    },
+    "response": {
+      "eng": "Must be ancient. Can you read it.",
+      "rus": "Должно быть какой-то древний. Можешь прочесть?"
+    },
+    "branches": ["7"]
+  },
+  "7": {
+    "prompt": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "person": {
+      "eng": "Masha",
+      "rus": "Маша"
+    },
+    "response": {
+      "eng": "Yeah, it's both in Russian and in English... Some old-fashioned letters though...",
+      "rus": "Да, он на русском и на английском... Там какие-то устаревшие буквы..."
+    },
+    "close_go_to": "intro_2"
+  }
+}

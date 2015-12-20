@@ -1,0 +1,16 @@
+{
+  "links": [
+    {
+      "icon": "play",
+      "destination": "intro_1",
+      "label": {
+        "eng": "Start Game",
+        "rus": "Начать игру"
+      },
+      "position": {
+        "x": 640,
+        "y": 640
+      }
+    }
+  ]
+}

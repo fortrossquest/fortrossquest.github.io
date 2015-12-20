@@ -1,0 +1,28 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Nikolai Schelokov",
+      "rus": "Николай Щелоковъ"
+    },
+    "response": {
+      "eng": "But this is... I've seen this before! Could it be the part of the same coin that chief Otekey was wearing on his necklace? I bet this is not a coincidence!",
+      "rus": "Но это... Я где-то это видел! Вероятно это та самая монета, часть которой была на шее вождя Отекея? Будь я проклят, если это совпадение!"
+    },
+    "branches": ["1"]
+  },
+  "1": {
+    "prompt": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "response": {
+      "eng": "And there is no sign of that contract... Probably, if it had ever existed, it had been burnt with the house...There must be a reason why it was suddenly burnt! Obviously, this part of the coin was the sign of that agreement. Clever Polotskoy kept it, even after he was carelessly buried with it on his neckchain.",
+      "rus": " И никаких следов договора...Вероятно, если он и существовал, то сгорел вместе с домом...Просто так дома не сгорают! По-видимому, эта часть монеты и олицетворяла договор. Умный Полотской хранил её, даже после того, как он был беспечно похоронен вместе с ней, висящей на цепочке, на его шее..."
+    },
+    "close_go_to": "otekey_2"
+  }
+}

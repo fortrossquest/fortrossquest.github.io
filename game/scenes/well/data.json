@@ -1,0 +1,26 @@
+{
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    },
+    {
+      "destination": "well_closer",
+      "label": {
+        "eng": "Look closer",
+        "rus": "Приблизить"
+      },
+      "position": {
+        "x": 576,
+        "y": 620
+      }
+    }
+  ]
+}

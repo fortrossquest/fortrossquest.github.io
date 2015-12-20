@@ -1,0 +1,26 @@
+{
+  "links": [
+    {
+      "destination": "shore_2",
+      "label": {
+        "eng": "Continue",
+        "rus": "Продолжить"
+      },
+      "position": {
+        "x": 800,
+        "y": 450
+      }
+    },
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  ]
+}

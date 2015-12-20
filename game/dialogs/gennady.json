@@ -1,0 +1,87 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Gennady",
+      "rus": "Геннадий"
+    },
+    "response": {
+      "eng": "Hello!",
+      "rus": "Здравствуйте!"
+    },
+    "branches": ["main_1", "char_1", "fort_1", "cont_1", "polo_1"]
+  },
+  "main_1": {
+    "required_flags_not": ["contract_search"],
+    "set_flags": ["sokenon"],
+    "prompt": {
+      "eng": "Do you know where Peter is?",
+      "rus": "Вы не знаете, где сейчас Пётр?"
+    },
+    "response": {
+      "eng": "No, sir. I don’t know myself where that lousy boy has gotten off to! I haven’t seen him the whole morning. But, don’t you know, there is one girl, called Sokenon, the daughter of one of first settlers of this fort. She usually spends time with him. Try to find her.",
+      "rus": "Нет, уважаемый. Сам не знаю, куда тот мог запропаститься! Целое утро его не видел. Хотя, знаете, есть тут у нас одна девушка, Сокэнон, дочь одного из первых поселенцев крепости, она обычно с Петром прохлаждается. Поищите её."
+    },
+    "branches": ["main_1", "char_1", "fort_1", "cont_1", "polo_1"]
+  },
+  "char_1": {
+    "prompt": {
+      "eng": "Who are you?",
+      "rus": "Кто Вы? Как Вас зовут?"
+    },
+    "response": {
+      "eng": "Who am I? Gennady Vasilyevich. And you, it seems to me, Nikolai Andreevich. I’ve been living in the fort for 5 years, sir. Even though I work as a main clerk I still do lots of things around. Everybody knows me here, even soldiers respect me.",
+      "rus": "Меня? Геннадий Васильевич. А Вы, значит, Николай Андреевич. Я в крепости уже 5 лет, уважаемый. Хоть я и официально работаю старшим клерком, я много какими делами тут занимаюсь. Меня все тут знают, даже солдаты меня уважают."
+    },
+    "branches": ["main_1", "char_1", "fort_1", "cont_1", "polo_1"]
+  },
+  "fort_1": {
+    "prompt": {
+      "eng": "Do you like it here?",
+      "rus": "Вам здесь нравится?"
+    },
+    "response": {
+      "eng": "I don’t like it being here. I thought it would be romantic, Mr. Schelokov, that’s America anyway. But all the things here go mindlessly and need hard work. I would have moved to another place long ago but I can’t. The contract. But even at home I could earn not so much.",
+      "rus": "Не нравится мне тут. Думал романтика, господин Щелоков, Америка как-никак. Да вот дела здесь вести тяжело и бессмысленно. Давно бы уехал, да не могу. Контракт. Да и заработать дома мог не намного меньше."
+    },
+    "branches": ["main_1", "char_1", "fort_1", "cont_1", "polo_1"]
+  },
+  "cont_1": {
+    "required_flags": ["contract_search"],
+    "prompt": {
+      "eng": "Have you seen the contract with the Indians? Can you search for it in your office?",
+      "rus": "Вы не видели договор с индейцами? Вы можете поискать его в конторе?"
+    },
+    "response": {
+      "eng": "I don't think it is here. As it was so important and unique, there must have been a certain person who was responsible for keeping and protecting it.",
+      "rus": "Я не думаю, что он может быть здесь. По крайней мере если он был так важен, обязаны были бы назначить человека, ответственного за его сохранность."
+    },
+    "branches": ["main_1", "char_1", "fort_1", "cont_1", "polo_1"]
+  },
+  "polo_1": {
+    "required_flags": ["contract_search", "polo_search"],
+    "prompt": {
+      "eng": "Do you know anybody by the name of Polotskoy?",
+      "rus": "Вы не знаете некого человека с фамилией Полоцкий?"
+    },
+    "response": {
+      "eng": "I had a friend at school called so. Or maybe he was Poletskiy, yeah, he was! We were best friends and did mischiefs together... What a time it was!... We even stole sweet apples from the Borovitskaya's garden...Nostalgia!",
+      "rus": "У меня был друг в школе, которого так звали. Или, может, он был Полецкий, да, точно! Мы были лучшими друзьями и вместе шалили...Что это было за время! Мы даже воровали сладкие яблоки из сада Боровицкой...Ностальгия!"
+    },
+    "branches": ["polo_2"]
+  },
+  "polo_2": {
+    "prompt": {
+      "eng": "Yeah... I understand.",
+      "rus": "Да... понимаю."
+    },
+    "response": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "branches": ["main_1", "char_1", "fort_1", "cont_1", "polo_1"]
+  }
+}

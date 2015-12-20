@@ -1,0 +1,26 @@
+{
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    },
+    {
+      "destination": "rotchev_inside_1",
+      "label": {
+        "eng": "Go inside",
+        "rus": "Войти внутрь"
+      },
+      "position": {
+        "x": 1152,
+        "y": 584
+      }
+    }
+  ]
+}

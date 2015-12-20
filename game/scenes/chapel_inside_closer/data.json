@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "rope",
+      "position": {
+        "x": 640,
+        "y": 475
+      },
+      "size": {
+        "width": 100,
+        "height": 100
+      }
+    }
+  ],
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    },
+    {
+      "destination": "chapel_inside",
+      "label": {
+        "eng": "Step back",
+        "rus": "Обратно"
+      },
+      "icon": "undo",
+      "position": {
+        "x": 640,
+        "y": 750
+      }
+    }
+  ]
+}

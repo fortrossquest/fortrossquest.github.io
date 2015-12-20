@@ -1,0 +1,41 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Alexander Gavrilovich Rotchev",
+      "rus": "Александр Гаврилович Ротчев"
+    },
+    "response": {
+      "eng": "Yeah...We have a difficult situation, Nikolai. The contract was lost a long time ago after it was created. I am quite sure a copy of it must exist somewhere, but I do not know where.",
+      "rus": "Да, тяжелая у нас ситуация, Николай. Договор был утерян еще в первые годы после составления.   К счастью, у нас осталась копия. К несчастию, тот, кто копировал документ, решил, что подпись индейца ничего не значит."
+    },
+    "branches": ["1"]
+  },
+  "1": {
+    "prompt": {
+      "eng": "And what shall we do now?",
+      "rus": "И что теперь делать?"
+    },
+    "response": {
+      "eng": "I will surely search for it in the previous commandants' documents. But you'd better go and ask anybody who lived here long before. Perhaps, somebody still remembers. How could nobody remember what happened to this document?",
+      "rus": "Я, действительно, покопаюсь в документах предыдущих комендантов, но лучше Вам пойти расспросить кого-нибудь из старожилов. Может быть, они помнят. И как так, никто не помнит, что стало с документом?"
+    },
+    "branches": ["2"]
+  },
+  "2": {
+    "unset_flags": ["sokenon"],
+    "set_flags": ["contract_search"],
+    "prompt": {
+      "eng": "Typical Russian carelessness! I'll search for it immediately.",
+      "rus": "Национальная безалаберность!  Я займусь поисками немедленно."
+    },
+    "response": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "close_go_to": "map"
+  }
+}

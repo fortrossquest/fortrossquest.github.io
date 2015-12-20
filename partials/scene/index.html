@@ -1,0 +1,73 @@
+<div class="container" style="margin-top: 2em;">
+  <div class="viewPort">
+    <div class="view" style="background-image: url({{ background_image }})">
+      <a ng-repeat="link in links"
+         class="button round-button"
+         style="position: absolute;
+                left: {{ link.position.x/12.8 }}%;
+                top: {{ link.position.y/8.0 }}%;"
+         ng-click="changeScene(link.destination)">
+        <i class="fa fa-{{ link.icon }}"></i> <span>{{ link.label[lang.id] }}</span>
+      </a>
+
+      <img ng-repeat="item in items"
+           style="position: absolute;
+                  left: {{ item.position.x/12.8 }}%;
+                  top: {{ item.position.y/8.0 }}%;
+                  width: {{ item.size.width/12.8 }}%;
+                  height: {{ item.size.height/8.0 }}%;
+                  margin-left: -{{ item.size.width/12.8/2 }}%;
+                  margin-top: -{{ item.size.height/8.0/2 }}%;"
+           ng-click="pickUpItem(item)"
+           ng-hide="inventory.isItemPickedUp(item.id, id)"
+           ng-src="game/items/{{ item.id }}/item.png" />
+      
+      <div class="conversation" ng-controller="DialogCtrl" ng-show="show" style="top: {{ position.y }}%; left: {{ position.x }}%;">
+        <h5>{{ person[lang.id] }}</h5>
+        <div>«{{ response[lang.id] }}»</div>
+        <div>
+          <a class="button u-full-width" ng-click="changeScene(close_go_to)" ng-show="branches.length == 0 && close_go_to">[{{ close[lang.id] }}]</a>
+          <a class="button u-full-width" ng-click="closeDialog()" ng-show="branches.length == 0 && !close_go_to">[{{ close[lang.id] }}]</a>
+          <a class="button u-full-width" ng-repeat="b in branches" ng-click="goTo(b)">{{ data[b].prompt[lang.id] }}</a>
+        </div>
+        <audio></audio>
+      </div>
+
+      <div class="inventory" ng-show="showInventory">
+        <img ng-repeat="item in inventory.items"
+             ng-src="game/items/{{ item }}/item.png" />
+      </div>
+
+      <div class="button-bar">
+        <img ng-click="lang.toggle()" src="game/images/lang_{{ lang.id }}.png" />
+        <img ng-click="toggleInventory()" src="game/images/inventory.png" />
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container">
+  <div class="smallDisplay">
+    <div class="conversation" ng-controller="DialogCtrl" ng-show="show">
+      <h5>{{ person[lang.id] }}</h5>
+      <div>«{{ response[lang.id] }}»</div>
+      <div>
+        <a class="button u-full-width" ng-click="changeScene(close_go_to)" ng-show="branches.length == 0 && close_go_to">[{{ close[lang.id] }}]</a>
+          <a class="button u-full-width" ng-click="closeDialog()" ng-show="branches.length == 0 && !close_go_to">[{{ close[lang.id] }}]</a>
+        <a class="button u-full-width" ng-repeat="b in branches" ng-click="goTo(b)">{{ data[b].prompt[lang.id] }}</a>
+      </div>
+    </div>
+
+    <a ng-repeat="item in items"
+       class="button u-full-width"
+       ng-click="pickUpItem(item)"
+       ng-hide="inventory.isItemPickedUp(item.id, id)">
+      <i class="fa fa-archive"></i> Pick up {{ item.id }}
+    </a>
+
+    <a ng-repeat="link in links"
+       class="button u-full-width"
+       ng-click="changeScene(link.destination)">
+      <i class="fa fa-{{ link.icon }}"></i> <span>{{ link.label[lang.id] }}</span>
+    </a>
+  </div>
+</div>

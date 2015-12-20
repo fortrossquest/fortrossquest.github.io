@@ -1,0 +1,38 @@
+{
+  "links": [
+    {
+      "destination": "shore_3",
+      "label": {
+        "eng": "Continue",
+        "rus": "Продолжить"
+      },
+      "position": {
+        "x": 200,
+        "y": 640
+      }
+    },
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    },
+    {
+      "destination": "shore_1",
+      "icon": "undo",
+      "label": {
+        "eng": "Go back",
+        "rus": "Вернуться"
+      },
+      "position": {
+        "x": 640,
+        "y": 750
+      }
+    }
+  ]
+}

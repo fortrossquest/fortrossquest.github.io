@@ -1,0 +1,17 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Nikolai Schelokov",
+      "rus": "Николай Щелоковъ"
+    },
+    "response": {
+      "eng": "When I came to the shore I saw Peter tied up by a group of Mexicans. Luckily, I called out for Andrei and together we freed Peter. That made me think again about the strange place I had arrived at. What Peter told us made us extremely terrified. Evidently, having found out about some bad conditions in the fort and the local area, the Mexicans had been inciting the locals for the past two weeks to exile us from this land. Shortly after freeing Peter, Rotchev decided to rush a group of ambassadors to the tribal native leaders to strengthen good neighborly relations with them. Due to the large number of these small tribes, I was also sent to one of them.",
+      "rus": "Когда я прiшёлъ на берѣгъ, я увiдѣлъ связанного мексiканцамi Петра. Къ счастью, мнѣ удалось позвать на помощь Андрѣя, i Пётръ был освобождёнъ. Это заставiло мѣня снова задуматься куда я всё-такi попалъ... То, что намъ повѣдалъ Петръ, повергло насъ въ ужасъ. Видимо, узнавшіе нѣкимъ образомъ про то, что дѣла въ крѣпости идутъ не столь хорошо, мексиканцы уже какъ двѣ недѣли подбиваютъ мѣстныхъ на изгнаніе насъ съ этой земли. Ротчевъ принялъ рѣшеніе срочно отправить группу пословъ къ вождямъ племенъ, чтобы укрѣпить добрососѣдскіе отношенія. Изъ-за большого числа мелкихъ племенъ, съ такой миссіей въ одно изъ нихъ направили и меня."
+    },
+    "close_go_to": "otekey"
+  }
+}

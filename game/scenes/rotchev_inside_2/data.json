@@ -1,0 +1,27 @@
+{
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    },
+    {
+      "destination": "rotchev_inside_1",
+      "label": {
+        "eng": "Go into the writing room",
+        "rus": "Войти в кабинет"
+      },
+      "icon": "undo",
+      "position": {
+        "x": 50,
+        "y": 600
+      }
+    }
+  ]
+}

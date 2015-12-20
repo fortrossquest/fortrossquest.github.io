@@ -1,0 +1,40 @@
+{
+  "items": [
+    {
+      "id": "bucket",
+      "position": {
+        "x": 1070,
+        "y": 570
+      },
+      "size": {
+        "width": 200,
+        "height": 200
+      }
+    }
+  ],
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    },
+    {
+      "destination": "kuskov",
+      "label": {
+        "eng": "Go back outside",
+        "rus": "Выйти на улицу"
+      },
+      "icon": "undo",
+      "position": {
+        "x": 640,
+        "y": 750
+      }
+    }
+  ]
+}

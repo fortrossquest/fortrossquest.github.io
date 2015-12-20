@@ -1,0 +1,32 @@
+{
+  "dialog_position": {
+    "x": 10,
+    "y": 25
+  },
+  "dialog": "gregory",
+  "links": [
+    {
+      "destination": "map",
+      "label": {
+        "eng": "Back to Map",
+        "rus": "Вернуться к карте"
+      },
+      "position": {
+        "x": 50,
+        "y": 50
+      }
+    },
+    {
+      "destination": "chapel",
+      "label": {
+        "eng": "Go back outside",
+        "rus": "Выйти на улицу"
+      },
+      "icon": "undo",
+      "position": {
+        "x": 640,
+        "y": 750
+      }
+    }
+  ]
+}

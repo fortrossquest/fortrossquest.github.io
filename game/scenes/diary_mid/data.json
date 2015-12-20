@@ -1,0 +1,21 @@
+{
+  "dialog": "diary_mid",
+  "dialog_position": {
+    "x": -5000,
+    "y": 0
+  },
+  "links": [
+    {
+      "icon": "play",
+      "destination": "otekey",
+      "label": {
+        "eng": "Continue",
+        "rus": "Продолжить"
+      },
+      "position": {
+        "x": 640,
+        "y": 700
+      }
+    }
+  ]
+}

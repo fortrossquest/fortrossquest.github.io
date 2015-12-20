@@ -1,0 +1,40 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Nikolai Schelokov",
+      "rus": "Николай Щелоковъ"
+    },
+    "response": {
+      "eng": "Here I am. The Fort Ross cemetery... Russians were burried here in this foreign soil... There is no doubt, it must be a shame to distrturb the dead but I have to, to save the people who are still alive and live in the fort...",
+      "rus": "Вот и на месте. Кладбище Форт Росса... Русские люди были здесь похоронены, в чужой земле... Несомненно, это невежественно беспокоить мёртвых, но мне придёться, чтобы сохранить жизни людей, которые ещё живы в крепости..."
+    },
+    "branches": ["no_shovel", "shovel"]
+  },
+  "no_shovel": {
+    "required_items_not": ["shovel"],
+    "prompt": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "response": {
+      "eng": "I'll definitely need a shovel to dig. I can't do it with my hands as the soil here is too firm. I should seek it in the fortress.",
+      "rus": "Мне определённо понадобится лопата. Я не могу копать своими руками, здесь твердый грунт. Мне стоит поискать её в крепости."
+    }
+  },
+  "shovel": {
+    "required_items": ["shovel"],
+    "prompt": {
+      "eng": "...",
+      "rus": "..."
+    },
+    "response": {
+      "eng": "Now I have a shovel to dig...Oh!... I wish it would end soon.",
+      "rus": "Теперь у меня есть лопата для раскопок...Эх!... Скорее бы это закончилось."
+    },
+    "close_go_to": "grave_2"
+  }
+}

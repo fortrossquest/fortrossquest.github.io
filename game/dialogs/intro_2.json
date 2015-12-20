@@ -1,0 +1,17 @@
+{
+  "intro": {
+    "prompt": {
+      "eng": "",
+      "rus": ""
+    },
+    "person": {
+      "eng": "Nikolai Schelokov",
+      "rus": "Николай Щелоковъ"
+    },
+    "response": {
+      "eng": "My name is Nikolai Schelokov. I'm an agent of State Security, who was sent here by the state to Fort Ross in America. I start a new diary as my previous one, in which I described my journey across Siberia and Alaska was also stolen along with the remainder of paraphernalia including my pistol and identification papers, as well as my letter of recommendation. Fortunately, Alexander Gavrilovic believed my account and let me to stay in his place, where I’m writing these lines…",
+      "rus": "Меня зовутъ Николай Щелоковъ. Я спеціальный агентъ «Охраннаго Отдѣленія», посланный службой государевой въ крѣпость Фортъ Росс въ Амерiку. Я начинаю новый дневнiкъ, т.к. мой предыдущій, гдѣ въ частностi опiсывалось мое путешествіе черезъ Сибирь i Аляску, былъ украденъ у меня со всѣми вещамi, включая мой пiстолетъ i удостоверѣнiе личности, а такъ же рекомендательное пiсьмо. Благо, Александръ Гавриловiчъ повѣрiлъ мнѣ и помѣстiлъ меня у себя дома, гдѣ я i пiшу этi строкi…"
+    },
+    "close_go_to": "intro_3"
+  }
+}
